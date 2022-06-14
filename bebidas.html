@@ -16,37 +16,50 @@
 
         <!--navbar boostrap-->
         
-        <nav class="navbar navbar-expand-lg  navbar-dark">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+            
+            <div class="container-fluid bg-dark">
+                <a class="navbar-brand" href="./index.html"><img src="./assets/FRanBurguers3.png" alt="logoNavbar"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="./index.html"><img src="./assets/FRanBurguers (1).png" alt="logoNavbar"></a>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link colorB" href="./hamburgesas.html">Hamburguesas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                        </li> <li class="nav-item">
-                            <a class="nav-link" href="./contactos.html">Contacto</a>
-                        
-                    </ul>
-                    
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                  
+                  <ul class="navbar-nav mx-auto  ">
+                    <li class="nav-item">
+                      <a class="nav-link active text-center" aria-current="page" href="./index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-center" href="./nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-center" href="./contactos.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       MENU
+                      </a>
+                      <ul class="dropdown-menu bg-dark " aria-labelledby="navbarDropdownMenuLink ">
+                        <li><a class="dropdown-item text-center text-white " href="./hamburgesas.html">Hamburguesas</a></li>
+                        <li><a class="dropdown-item text-center text-white " href="./guarniciones.html">Guarniciones</a></li>
+                        <li><a class="dropdown-item text-center text-white " href="./bebidas.html">Bebidas</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </nav>
+              </div> 
+       
+      </nav>
     </header>
         
+    <div class="container ">
         <header class="cabecera">
-            <img class="bounce-top" src="./assets/FRanBurguers.png" alt="logo"> 
+            <img class="bounce-top img-fluid " src="./assets/FRanBurguers.png" alt="logo"> 
             <h1 class="text-focus-in" >FRANBURGUERS</h1>
             <h3 class="text-focus-in">Hamburguesas que te vuelan la cabeza</h3>
          </header>
+        </div>
 <!--
 
     <header class="cabecera">
@@ -135,19 +148,16 @@
 
 
 
-    <nav class="navMenu">
-      <ul class="menu">
-          <li class="logo"><a href=""><img src="./assets/FRanBurguers (1).png" alt="logoFB"></a></li>
-          <li class="FranB"><h3>Franburguers</h3></li>
-         <div class="menuBar">
-             <li><a href="./index.html">INICIO</a></li>
-              <li><a href="./hamburgesas.html">MENU</a></li>
-              <li><a href="./nosotros.html">NOSOTROS</a></li>
-              <li><a href="./contactos.html">CONTACTO</a></li>
-      </div> 
-             
-      </ul>
-  </nav> 
+    <nav class="menuH">
+        
+        <a href="./index.html" class="nav-enlace" >Inicio</a>
+        <a href="nosotros.html" class="nav-enlace" >Nosotros</a>
+        <a href="hamburgesas.html" class="nav-enlace" >Hamburgesas</a>
+        <a href="guarniciones.html" class="nav-enlace" >Guarniciones</a>
+        <a href="bebidas.html" class="nav-enlace" >Bebidas</a>
+        <a href="contactos.html" class="nav-enlace" >Contactos</a>
+   
+</nav>
 
 
 
